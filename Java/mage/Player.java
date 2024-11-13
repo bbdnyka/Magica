@@ -1,6 +1,6 @@
 package Java.mage;
 public class Player
-/*Create your player stats */
+/*Create new player*/
 {
     String name;
     int HP;
@@ -8,7 +8,7 @@ public class Player
     //int playerStats;
     
 
-public Player() //,int playerStats)
+public Player() //playerStats
 {
     this.name = "Mage";
     this.HP = 100;
@@ -16,8 +16,22 @@ public Player() //,int playerStats)
 
     //this.playerStats = playerStats;
 }
+public Player(String name){
+    this.name = name;
+    this.HP = 100;
+    this.MP = 100;
+}
+
+//Set player name
+public String getName(){
+    return name;
+}
+public void setName(String name){
+    this.name = name;
+}
+
 @Override
 public String toString(){
-    return "[Player\n[Name: "+name+"\n"+ "[HP: "+HP+"\n"+"[MP: "+MP+"\n";
+    return "\nPlayer\n---------------\n[Name: "+name+"\n"+ "[HP: "+HP+"\n"+"[MP: "+MP+"\n";
 }
 }
