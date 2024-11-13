@@ -1,0 +1,16 @@
+Game == Magica
+Player
+    -level
+    -stats
+    -skills
+    -HP(100 HP)
+    -MP(100 MP)
+Weapons
+    -wands/stalves 
+Items
+    -HP potion(+1HP)
+    -MP potion(+1MP)
+Magic
+    -Basic Spell(-1MP)
+Monsters
+    -Slime(DMG = -1HP)
