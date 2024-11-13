@@ -9,14 +9,6 @@ public class Magica
     in stats(HP, str, mana, def) for that player and create a name for the player. Should be able to save changes.
     */ 
 
-    // createName scanner for entering in player name
-    
-
-    // newPlayer for entering in stats. 
-    /*new players are given 10 stat points.*/
-    Player newPlayer;
-    
-
 public static void main(String[] args)
 {
     //Write a text file to save player info.
