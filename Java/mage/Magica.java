@@ -14,7 +14,7 @@ public static void main(String[] args)
     //Write a text file to save player info.
     // Created text file updated with player.
    // Scanner sc = new Scanner(System.in);
-    Player newPlayer = new Player();
+    Player newPlayer = new Player("Sasha");
     Monsters slime = new Monsters("Slime");
 
 
