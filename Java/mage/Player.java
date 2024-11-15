@@ -1,4 +1,5 @@
 package Java.mage;
+
 public class Player
 /*Create new player*/
 {

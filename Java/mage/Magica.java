@@ -13,11 +13,15 @@ public static void main(String[] args)
 {
     //Write a text file to save player info.
     // Created text file updated with player.
-    Scanner sc = new Scanner(System.in);
+   // Scanner sc = new Scanner(System.in);
     Player newPlayer = new Player();
-    System.out.println("Enter your Player's name.");
-    newPlayer.name = sc.nextLine();   
+    Monsters slime = new Monsters("Slime");
+
+
+    //System.out.println("Enter your Player's name.");
+    //newPlayer.name = sc.nextLine();   
     System.out.println(newPlayer);
+    System.out.println(slime);
 }
 
 }
